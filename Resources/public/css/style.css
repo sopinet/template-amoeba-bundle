@@ -432,7 +432,10 @@ h1 a.navbar-brand {
 
 section.featured {
 	padding: 200px 0 60px;
-	background: #70B9B0;
+	background-image: url(../../../bundles/sopinettemplateamoeba/img/trazeo_icon_bg_trans.png);
+	background-repeat: no-repeat;
+	background-position: 2.5em 2em;
+	background-color: #95c11f;
 	color: #fdfdfd;
 }
 
@@ -1093,9 +1096,9 @@ Media queries
 	.navbar .navbar-collapse ul.nav li {
 		border-bottom: 1px solid #666;
 	}
-	section.featured {
-		padding-top: 80px;
-	}
+	/* section.featured {
+		 padding-top: 80px; 
+	}*/
 	
 	.team-member,.col-lg-4 {
 		margin-bottom: 30px;
