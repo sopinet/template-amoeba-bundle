@@ -77,7 +77,7 @@
 		var s = skrollr.init({
 			mobileDeceleration: 1,
 			edgeStrategy: 'set',
-			forceHeight: true,
+			forceHeight: false,
 			smoothScrolling: true,
 			smoothScrollingDuration: 300,
 				easing: {
@@ -115,7 +115,7 @@
             $(window).stellar({
                 responsive:true,
                 scrollProperty: 'scroll',
-                parallaxElements: false,
+                parallaxElements: true,
                 horizontalScrolling: false,
                 horizontalOffset: 0,
                 verticalOffset: 0

@@ -346,7 +346,8 @@ section.section {
 .navbar {
 	line-height: 100px;
 	height: 100px;
-	background-color: rgba(0,0,0,0.3);
+	/*background-color: rgba(0,0,0,0.3);*/
+	background-color: #82a939;
 	display: block;
 	vertical-align: middle;
 	text-align: center;
@@ -432,7 +433,10 @@ h1 a.navbar-brand {
 
 section.featured {
 	padding: 200px 0 60px;
-	background: #70B9B0;
+	background-image: url(../../../bundles/sopinettemplateamoeba/img/trazeo_icon_bg_trans.png);
+	background-repeat: no-repeat;
+	background-position: 2.5em 2em;
+	background-color: #95c11f;
 	color: #fdfdfd;
 }
 
@@ -954,7 +958,7 @@ a.scrollup:hover{
 }
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, 
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-	color:#fff;
+	color:#FFF;
 }
 a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD;
@@ -990,7 +994,7 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.2s;
 }
 .social-circle i {
-	color: #fff;
+	color: #82a939;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
@@ -1081,7 +1085,7 @@ Media queries
 @media (max-width: 767px) {
 
 	.navbar.navbar-fixed-top {
-		background-color:rgba(0,0,0,1);
+		background-color: rgb(130, 169, 57);
 	}
 	.navbar .navbar-collapse ul.nav {
 		background-color: #444;
@@ -1093,9 +1097,9 @@ Media queries
 	.navbar .navbar-collapse ul.nav li {
 		border-bottom: 1px solid #666;
 	}
-	section.featured {
-		padding-top: 80px;
-	}
+	/* section.featured {
+		 padding-top: 80px; 
+	}*/
 	
 	.team-member,.col-lg-4 {
 		margin-bottom: 30px;
