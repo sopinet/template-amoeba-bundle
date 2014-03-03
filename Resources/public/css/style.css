@@ -346,7 +346,8 @@ section.section {
 .navbar {
 	line-height: 100px;
 	height: 100px;
-	background-color: rgba(0,0,0,0.3);
+	/*background-color: rgba(0,0,0,0.3);*/
+	background-color: #82a939;
 	display: block;
 	vertical-align: middle;
 	text-align: center;
@@ -957,7 +958,7 @@ a.scrollup:hover{
 }
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i, 
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-	color:#fff;
+	color:#FFF;
 }
 a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD;
@@ -993,7 +994,7 @@ a.socialIcon:hover, .socialHoverClass {
 	transition: all 0.2s;
 }
 .social-circle i {
-	color: #fff;
+	color: #82a939;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
@@ -1084,7 +1085,7 @@ Media queries
 @media (max-width: 767px) {
 
 	.navbar.navbar-fixed-top {
-		background-color:rgba(0,0,0,1);
+		background-color: rgb(130, 169, 57);
 	}
 	.navbar .navbar-collapse ul.nav {
 		background-color: #444;
