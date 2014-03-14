@@ -1109,3 +1109,50 @@ Media queries
 		margin-bottom: 30px;
 	}
 }
+
+/***** CAROUSEL *****/
+
+#carousel {
+	
+	*background-color:grey;
+}
+
+.carousel-inner{
+
+	height:350px;
+}
+
+ .item  {
+
+		margin-top:5%;
+		margin-left:0 auto;
+		margin-right:0 auto;
+		float:none;
+		position:absolute;
+}
+
+.carousel-control {
+    background-image: none !important;
+    color: white;
+    margin-top: 15%;
+}
+
+.carousel-indicators li{
+	border: 1px solid white;
+
+}
+.carousel-indicators .active {
+
+	background-color: white;
+	border: 1px solid white;
+}
+
+.caption {
+	
+	*background-color:black !important;
+	margin:0;
+	padding:40px;
+	left:0;
+	right:0;
+	bottom:0;
+}
