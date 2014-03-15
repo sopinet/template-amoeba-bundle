@@ -1112,47 +1112,51 @@ Media queries
 
 /***** CAROUSEL *****/
 
-#carousel {
+.carousel-container {
+	max-height: 400px;
+	min-height: 400px;
+	margin-bottom: 25px;
+	padding: 20px;
+	*box-shadow: 0px 5px 5px #333;
+}
+.carousel-inner {
+	height: 100%;
+	max-height:350px;
+}
+ .item img {
+	height: 100% !important;
+	max-height: 450px;
+}
+.caption {
+
+	margin-top:10%;
+
+}
+.caption h1  {
 	
-	*background-color:grey;
+	color:white;
+	font-size:2em;
+}
+.caption p {
+	
+	color:white;
+	font-weight:bold;
+	font-size:1em;
 }
 
-.carousel-inner{
-
-	height:350px;
-}
-
- .item  {
-
-		margin-top:5%;
-		margin-left:0 auto;
-		margin-right:0 auto;
-		float:none;
-		position:absolute;
-}
-
-.carousel-control {
-    background-image: none !important;
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
     color: white;
-    margin-top: 15%;
+    margin-top: 10%;
 }
-
+.carousel-control-hover {
+	color: white !important;
+	font-size: 26px;
+}
 .carousel-indicators li{
 	border: 1px solid white;
-
 }
 .carousel-indicators .active {
-
 	background-color: white;
 	border: 1px solid white;
-}
-
-.caption {
-	
-	*background-color:black !important;
-	margin:0;
-	padding:40px;
-	left:0;
-	right:0;
-	bottom:0;
 }
